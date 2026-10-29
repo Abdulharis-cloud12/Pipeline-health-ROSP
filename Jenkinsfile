@@ -19,7 +19,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'echo "All tests passed."'
+                sh 'exit 1'
             }
         }
 
